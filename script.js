@@ -23,59 +23,37 @@ qrInput.addEventListener("keyup", () => {
     }
 });
 
-//var colorPicker = document.getElementById("bgcolor");
-//var colorVal;
-//var buttons = document.querySelectorAll(".colors");
-//var done = document.getElementById("doIt");
+/*  var colorPicker = document.getElementById("bgcolor");
+var colorVal;
+var buttons = document.querySelectorAll(".colors");
+var done = document.getElementById("doIt");
 
-//function changebodycolor(){
-// colorVal = colorPicker.value;
-// document.getElementById("colorContainer").value = colorVal;}
+function changebodycolor(){
+ colorVal = colorPicker.value;
+ document.getElementById("colorContainer").value = colorVal;}
 
-//colorPicker.addEventListener("change",changebodycolor,false);
+colorPicker.addEventListener("change",changebodycolor,false);
 
-//for(var i = 0; i < buttons.length; i++){
- //  buttons[i].onclick = function(){
-//      if(colorContainer.value.trim().length < 1)
-//   {return false;}
+for(var i = 0; i < buttons.length; i++){
+   buttons[i].onclick = function(){
+      if(colorContainer.value.trim().length < 1)
+   {return false;}
    
-//   else {
-//        this.innerHTML = colorVal;
-//     }
-//   };
-//}
+   else {
+        this.innerHTML = colorVal;
+     }
+   };
+}
 
-//doIt.onclick = function(){
- //  var gradient = "linear-gradient(to top,"
- //  + buttons[0].innerHTML + ","
- //  + buttons[1].innerHTML  + ","
- //  + buttons[2].innerHTML  + ","
- //  + buttons[3].innerHTML  + ",";
- //  document.body.style.background = gradient;
-// };
+doIt.onclick = function(){
+   var gradient = "linear-gradient(to top,"
+   + buttons[0].innerHTML + ","
+   + buttons[1].innerHTML  + ","
+   + buttons[2].innerHTML  + ","
+   + buttons[3].innerHTML  + ",";
+   document.body.style.background = gradient;
+ }; *//
 
+/*  https://chart.googleapis.com/chart?cht=qr&chl='${qrValue}'&chs=180x180&choe=UTF-8&chld=L|2 
 
-
-
-
-
-
-
-//colorPicker.addEventListener("input", updateFirst, false);
-//colorPicker.addEventListener("change", watchColorPicker, false);
-
-//function watchColorPicker(event) {
-//  document.querySelectorAll("p").forEach(function(p) {
-//    p.style.color = event.target.value;
-//  });
-//}
-
-//var colorWell;
-//var defaultColor = "#0000ff";
-
-//window.addEventListener("load", startup, false); 
-
-
-// https://chart.googleapis.com/chart?cht=qr&chl='${qrValue}'&chs=180x180&choe=UTF-8&chld=L|2 
-
-// https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=${qrValue}
+     https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=${qrValue}  *//
