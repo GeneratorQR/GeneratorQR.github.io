@@ -52,8 +52,8 @@ doIt.onclick = function(){
    + buttons[2].innerHTML  + ","
    + buttons[3].innerHTML  + ",";
    document.body.style.background = gradient;
- }; *//
+ }; */
 
 /*  https://chart.googleapis.com/chart?cht=qr&chl='${qrValue}'&chs=180x180&choe=UTF-8&chld=L|2 
 
-     https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=${qrValue}  *//
+     https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=${qrValue}  */
